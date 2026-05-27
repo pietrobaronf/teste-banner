@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(175, 4, 4);
+    padding: 18px;
+    color: white;
+}
+
+.titulo{
+    width: 50%;
+    font-size: 20px;
+    font-family: "Playwrite GB J", cursive;
+}
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 100px;
+    font-size: 18px;
+}
+
+
+.secao1{
+    background-image: url(../imagem/escritorio2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    color: white;
+}
+
+
+h1{
+    font-size: 100px;
+    letter-spacing: 5px;
+    width: 100%;
+    text-align: center;
+    line-height: 120px;
+}
+
+
+.secao2{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h2{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.secao2 p{
+    font-size: 20px;
+}
